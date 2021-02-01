@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import logo from '../../Murmuring-01.jpg'
 
 export class Navigation extends Component {
   render() {
@@ -19,7 +20,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              Murmuring
+              <img src={logo} alt="logo" />
             </a>{" "}
           </div>
 
