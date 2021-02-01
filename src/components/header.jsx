@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from '../../Murmuring-01.jpg'
+
 export class Header extends Component {
   render() {
     return (
