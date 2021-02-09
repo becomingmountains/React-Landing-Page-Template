@@ -32,10 +32,10 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Navigation />
+        {/* <Navigation /> */}
         <Header data={this.state.resumeData.Header}/>
-        <Features data={this.state.resumeData.Features}/>
-        <About  data={this.state.resumeData.About}/>
+        {/* <Features data={this.state.resumeData.Features}/>
+        <About  data={this.state.resumeData.About}/> */}
         <Contact  data={this.state.resumeData.Contact}/>
       </div>
     )
