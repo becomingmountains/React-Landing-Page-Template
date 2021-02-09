@@ -12,7 +12,7 @@ export class Header extends Component {
       //           <div className="col-md-8 col-md-offset-2 intro-text">
       //             <h1>
       <div>
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} alt="logo" />
       </div>
       //               <span></span>
       //             </h1>
