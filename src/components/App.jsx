@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import Navigation from './navigation';
 import Header from './header';
-import Features from './features';
-import About from './about';
 import Contact from './contact';
 import $ from 'jquery';
 
