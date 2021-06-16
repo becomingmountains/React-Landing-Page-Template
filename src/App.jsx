@@ -22,9 +22,9 @@ export class App extends Component {
   render() {
     return (
       <div>
+        <Header data={this.state.landingPageData.Header} />
+        <Contact data={this.state.landingPageData.Contact} />
         <Router>
-          <Header data={this.state.landingPageData.Header} />
-          <Contact data={this.state.landingPageData.Contact} />
           <Route path="/privacy" component={Privacy} />
         </Router>
       </div>
