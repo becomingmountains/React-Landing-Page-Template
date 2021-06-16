@@ -6,9 +6,6 @@ import Privacy from './components/Privacy';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  Link,
-  Redirect
 } from "react-router-dom";
 export class App extends Component {
   state = {
