@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "../Murmuring-01.jpg";
 import "./navigation.css";
 
 export class Navigation extends Component {
