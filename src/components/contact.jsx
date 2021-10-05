@@ -10,10 +10,7 @@ export class Contact extends Component {
               <div className="row">
                 <div className="section-title">
                   <h2>Get In Touch Today</h2>
-                  <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
-                  </p>
+                  <p>Contact Murmuring With Your Special Project Request</p>
                 </div>
                 <form name="sentMessage" id="contactForm" noValidate>
                   <div className="row">
