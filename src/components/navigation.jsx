@@ -21,7 +21,7 @@ export class Navigation extends Component {
             </button>
             <a
               className="navbar-brand page-scroll"
-              style={{ color: "#0A5697", fontStyle: "italic" }}
+              style={{ color: "#0A5697" }}
               href="#page-top"
             >
               Murmuring
