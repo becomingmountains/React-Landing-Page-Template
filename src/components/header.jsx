@@ -1,11 +1,21 @@
 import React, { Component } from "react";
-import logo from '../Murmuring-01.jpg';
-import './header.css';
+import logo from "../Murmuring-01.jpg";
+import "./header.css";
 export class Header extends Component {
   render() {
     return (
       <div>
-        <img className="logo" src={logo} alt="logo" />
+        <img
+          style={{
+            padding: 0,
+            display: "block",
+            margin: "0 auto",
+            maxHeight: "50%",
+            maxWidth: "50%",
+          }}
+          src={logo}
+          alt="logo"
+        />
       </div>
     );
   }
